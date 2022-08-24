@@ -12,10 +12,10 @@
 }
 
 .slide__title {
-    font-size: 4.5rem;
+    font-size: 5rem;
     text-transform: uppercase;
     font-family: $secondaryFont;
-    color: $mainColor;
+    color: white;
     font-weight: 600;
     margin-bottom: 2rem;
     text-shadow: 2px 2px 0px $accentColor;
@@ -30,9 +30,9 @@
 
 .slide__img-box {
     max-width: 50%;
-    max-height: 35rem;
+    max-height: 50rem;
     overflow: hidden;
-    border-radius: 2rem;
+    border-radius: 1.5rem;
     margin: 2rem;
 }
 

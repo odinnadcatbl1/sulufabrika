@@ -1,5 +1,42 @@
 .intro {
-    background-color: rgba($accentColor, 0.1);
-    padding: 3rem;
-    box-shadow: 2px 0px 5px $mainColor;
+    background-color: $accentColor;
+    padding: 5rem 0;
+}
+
+.slick-track {
+    display: flex;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.slick-arrow {
+    display: none !important;
+}
+
+.slick-dots {
+    position: absolute;
+    display: flex !important;
+    left: 50%;
+    transform: translateX(-50%);
+
+    li {
+        padding: 0.5rem 1rem;
+        font-size: 0;
+
+        button {
+            width: 1.5rem;
+            height: 1.5rem;
+            border-radius: 50%;
+            border: none;
+            background-color: white;
+        }
+    }
+
+    .slick-active {
+        button {
+            background-color: $mainColor;
+        }
+    }
 }
