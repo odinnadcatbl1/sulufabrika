@@ -1,0 +1,60 @@
+.header {
+}
+
+.header__inner {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    height: 10rem;
+}
+
+.logo__img {
+    width: 8.3rem;
+    height: 8rem;
+    object-fit: contain;
+}
+
+.logo__wrap {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo__name {
+    margin-left: 1rem;
+    font-family: $primaryFont;
+    font-weight: 900;
+    line-height: 1;
+    font-size: 2rem;
+    color: $mainColor;
+    letter-spacing: 0.04em;
+    text-shadow: 1px 1px 1px $accentColor;
+}
+
+.header__nav {
+    display: flex;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__list-item {
+    margin-left: 1rem;
+}
+
+.nav__link {
+    font-size: 1.4rem;
+    font-family: $primaryFont;
+    font-weight: 600;
+    color: $fontColor;
+    text-decoration: none;
+    transition: all 0.2s ease;
+
+    &:hover {
+        opacity: 0.7;
+        text-decoration: overline;
+    }
+}
