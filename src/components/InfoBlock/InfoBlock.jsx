@@ -35,12 +35,13 @@ const InfoBlock = () => {
                         <ul className="bags__list">
                             <li className="bags__item">
                                 <div
-                                    className="bags__name"
+                                    className={
+                                        firstIsVisible
+                                            ? "bags__name bags__name--active"
+                                            : "bags__name"
+                                    }
                                     onClick={() =>
                                         setFirstVisible(!firstIsVisible)
-                                    }
-                                    style={
-                                        firstIsVisible ? { color: "white" } : {}
                                     }
                                 >
                                     Bag in box{" "}
@@ -52,19 +53,10 @@ const InfoBlock = () => {
                                 </div>
 
                                 <div
-                                    className="bags__submenu"
-                                    style={
+                                    className={
                                         firstIsVisible
-                                            ? {
-                                                  visibility: "visible",
-                                                  height: "420px",
-                                                  opacity: "1",
-                                              }
-                                            : {
-                                                  visibility: "hidden",
-                                                  height: "0",
-                                                  opacity: "0",
-                                              }
+                                            ? "bags__submenu bags__submenu--active"
+                                            : "bags__submenu"
                                     }
                                 >
                                     <div className="bags__submenu-item">
@@ -89,14 +81,13 @@ const InfoBlock = () => {
 
                             <li className="bags__item">
                                 <div
-                                    className="bags__name"
+                                    className={
+                                        secondIsVisible
+                                            ? "bags__name bags__name--active"
+                                            : "bags__name"
+                                    }
                                     onClick={() =>
                                         setSecondVisible(!secondIsVisible)
-                                    }
-                                    style={
-                                        secondIsVisible
-                                            ? { color: "white" }
-                                            : {}
                                     }
                                 >
                                     Pouch maisi
@@ -108,19 +99,10 @@ const InfoBlock = () => {
                                 </div>
 
                                 <div
-                                    className="bags__submenu"
-                                    style={
+                                    className={
                                         secondIsVisible
-                                            ? {
-                                                  visibility: "visible",
-                                                  height: "420px",
-                                                  opacity: "1",
-                                              }
-                                            : {
-                                                  visibility: "hidden",
-                                                  height: "0",
-                                                  opacity: "0",
-                                              }
+                                            ? "bags__submenu bags__submenu--active"
+                                            : "bags__submenu"
                                     }
                                 >
                                     <div className="bags__submenu-item">

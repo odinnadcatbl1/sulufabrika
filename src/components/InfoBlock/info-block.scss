@@ -59,11 +59,17 @@
     border-radius: 1rem;
     transition: all 0.2s ease-in;
 
+    &--active {
+        color: white;
+        text-shadow: 1px 1px 1px lighten($fontColor, 15);
+    }
+
     span {
         margin-left: 1rem;
     }
 
     &:hover {
+        text-shadow: 1px 1px 1px lighten($fontColor, 15);
         color: white;
     }
 }
@@ -74,6 +80,15 @@
     background-color: white;
     border-radius: 1rem;
     transition: all 0.4s ease;
+    visibility: hidden;
+    height: 0;
+    opacity: 0;
+
+    &--active {
+        visibility: visible;
+        height: 42rem;
+        opacity: 1;
+    }
 }
 
 .bags__submenu-item {
