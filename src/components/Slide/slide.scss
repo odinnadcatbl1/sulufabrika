@@ -16,24 +16,25 @@
 }
 
 .slide__title {
-    font-size: 5rem;
+    font-size: 5.5rem;
     text-transform: uppercase;
     font-family: $secondaryFont;
     color: white;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 2rem;
-    text-shadow: 2px 2px 0px $accentColor;
+    text-shadow: 2px 1px 1px $mainColor;
     text-align: right;
 }
 
 .slide__text {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     text-align: right;
     color: $fontColor;
+    font-family: $primaryFont;
 }
 
 .slide__img-box {
-    max-width: 50%;
+    max-width: 70%;
     max-height: 50rem;
     overflow: hidden;
     border-radius: 1.5rem;
