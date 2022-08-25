@@ -23,7 +23,10 @@ const Header = () => {
                     <nav className="header__nav">
                         <ul className="nav__list">
                             <li className="nav__list-item">
-                                <AnchorLink className="nav__link" href="#">
+                                <AnchorLink
+                                    className="nav__link"
+                                    href="#contacts"
+                                >
                                     KONTAKTI
                                 </AnchorLink>
                             </li>

@@ -1,3 +1,4 @@
+import Contacts from "../Contacts/Contacts";
 import Header from "../Header/Header";
 import Intro from "../Intro/Intro";
 
@@ -6,6 +7,7 @@ const App = () => {
         <div className="app">
             <Header />
             <Intro />
+            <Contacts />
         </div>
     );
 };
