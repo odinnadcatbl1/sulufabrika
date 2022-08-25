@@ -1,4 +1,5 @@
 import Contacts from "../Contacts/Contacts";
+import Gallery from "../Gallery/Gallery";
 import Header from "../Header/Header";
 import InfoBlock from "../InfoBlock/InfoBlock";
 import Intro from "../Intro/Intro";
@@ -12,6 +13,7 @@ const App = () => {
             <Contacts />
             <InfoBlock />
             <Rules />
+            <Gallery />
         </div>
     );
 };
