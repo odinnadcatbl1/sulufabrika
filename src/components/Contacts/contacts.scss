@@ -39,12 +39,33 @@
     font-size: 3rem;
     font-family: $secondaryFont;
     font-weight: 700;
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    &:hover {
+        + .contacts__item-address a {
+            text-decoration: overline;
+        }
+    }
 }
 
 .contacts__item-address {
     padding: 1rem;
     font-size: 2rem;
     text-align: center;
+    &:hover {
+        a {
+            text-decoration: overline;
+        }
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
 }
 
 .contacts__item-phone {
