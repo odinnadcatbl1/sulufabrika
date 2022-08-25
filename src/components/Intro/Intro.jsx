@@ -42,6 +42,7 @@ const Intro = () => {
                         {slides.map((slide) => {
                             return (
                                 <Slide
+                                    key={slide.title}
                                     img={slide.img}
                                     title={slide.title}
                                     text={slide.text}

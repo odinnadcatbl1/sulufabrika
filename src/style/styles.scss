@@ -19,6 +19,16 @@ html {
     padding: 0 4rem;
 }
 
+.page__title {
+    padding: 1rem;
+    font-size: 3.5rem;
+    font-family: $primaryFont;
+    font-weight: 600;
+    color: $fontColor;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 @import "../components/App/app.scss";
 @import "../components/Header/header.scss";
 @import "../components/Intro/intro.scss";
