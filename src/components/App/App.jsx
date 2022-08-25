@@ -1,5 +1,6 @@
 import Contacts from "../Contacts/Contacts";
 import Header from "../Header/Header";
+import InfoBlock from "../InfoBlock/InfoBlock";
 import Intro from "../Intro/Intro";
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
             <Header />
             <Intro />
             <Contacts />
+            <InfoBlock />
         </div>
     );
 };

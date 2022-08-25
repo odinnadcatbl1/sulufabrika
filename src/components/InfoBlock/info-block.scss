@@ -1,0 +1,103 @@
+.info__block {
+    background-color: $accentColor;
+    padding: 5rem 0;
+}
+
+.info__block-inner {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    color: $fontColor;
+}
+
+.info__block-text {
+    padding: 2rem;
+    width: 50%;
+    font-size: 2rem;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-family: $primaryFont;
+    text-align: right;
+
+    h3 {
+        padding-bottom: 2rem;
+        font-size: 2.6rem;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+    }
+    border-right: 1px solid $fontColor;
+}
+
+.info__block-bags {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.bags__title {
+    margin-top: 1rem;
+    width: 100%;
+    font-family: $primaryFont;
+    font-size: 2.6rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.bags__list {
+    margin-top: 5rem;
+    font-family: $secondaryFont;
+}
+
+.bags__name {
+    margin: 1rem 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    background-color: darken($accentColor, 15);
+    cursor: pointer;
+    border-radius: 1rem;
+    transition: all 0.2s ease-in;
+
+    span {
+        margin-left: 1rem;
+    }
+
+    &:hover {
+        color: white;
+    }
+}
+
+.bags__submenu {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 1rem;
+    transition: all 0.2s ease-out;
+}
+
+.bags__submenu-item {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    border: 1px solid $accentColor;
+}
+
+.submenu__item-text {
+    width: 40%;
+    font-family: $primaryFont;
+    font-size: 2.6rem;
+    font-weight: 500;
+    padding: 1rem;
+    color: $fontColor;
+}
+
+.submenu__item-img {
+    width: 25rem;
+    max-width: 70%;
+
+    img {
+        max-width: 30rem;
+        max-height: 20rem;
+    }
+}

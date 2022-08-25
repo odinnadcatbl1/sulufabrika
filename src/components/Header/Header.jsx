@@ -30,21 +30,28 @@ const Header = () => {
                                     KONTAKTI
                                 </AnchorLink>
                             </li>
+
                             <li className="nav__list-item">
-                                <AnchorLink className="nav__link" href="#">
-                                    NOTEIKUMI
-                                </AnchorLink>
-                            </li>
-                            <li className="nav__list-item">
-                                <AnchorLink className="nav__link" href="#">
+                                <AnchorLink
+                                    className="nav__link"
+                                    href="#info__block"
+                                >
                                     PAKALPOJUMI
                                 </AnchorLink>
                             </li>
+
+                            <li className="nav__list-item">
+                                <AnchorLink className="nav__link" href="">
+                                    NOTEIKUMI
+                                </AnchorLink>
+                            </li>
+
                             <li className="nav__list-item">
                                 <AnchorLink className="nav__link" href="#">
                                     GALERIJA
                                 </AnchorLink>
                             </li>
+
                             <li className="nav__list-item">
                                 <AnchorLink className="nav__link" href="#">
                                     VIDEO
