@@ -1,3 +1,77 @@
 .rules {
     padding: 5rem 0;
 }
+
+.rules__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rules__inner-text {
+    margin-top: 3rem;
+    font-family: $primaryFont;
+    font-size: 2rem;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: $fontColor;
+
+    span {
+        font-size: 2.2rem;
+        font-family: $secondaryFont;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: $mainColor;
+        text-shadow: 1px 1px 1px $fontColor;
+    }
+
+    b {
+        font-size: 2rem;
+        line-height: 5;
+        font-weight: 600;
+    }
+}
+
+.rules__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.rules__item {
+    width: 30%;
+    height: 18rem;
+    padding: 2rem;
+    box-shadow: 0px 0px 5px darken($mainColor, 20);
+    border-radius: 3rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $accentColor;
+    }
+}
+
+.rules__number {
+    padding: 2rem;
+    font-size: 3rem;
+    font-family: $primaryFont;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: $mainColor;
+    text-align: center;
+    text-shadow: 1px 1px 1px $fontColor;
+}
+
+.rules__text {
+    font-family: $primaryFont;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: $fontColor;
+}
