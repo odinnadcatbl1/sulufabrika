@@ -73,7 +73,7 @@
     flex-direction: column;
     background-color: white;
     border-radius: 1rem;
-    transition: all 0.2s ease-out;
+    transition: all 0.4s ease;
 }
 
 .bags__submenu-item {
@@ -99,5 +99,11 @@
     img {
         max-width: 30rem;
         max-height: 20rem;
+        transition: all 0.2s linear;
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(1.3);
+        }
     }
 }

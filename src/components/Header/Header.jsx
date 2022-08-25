@@ -41,19 +41,25 @@ const Header = () => {
                             </li>
 
                             <li className="nav__list-item">
-                                <AnchorLink className="nav__link" href="">
+                                <AnchorLink className="nav__link" href="#rules">
                                     NOTEIKUMI
                                 </AnchorLink>
                             </li>
 
                             <li className="nav__list-item">
-                                <AnchorLink className="nav__link" href="#">
+                                <AnchorLink
+                                    className="nav__link"
+                                    href="#gallery"
+                                >
                                     GALERIJA
                                 </AnchorLink>
                             </li>
 
                             <li className="nav__list-item">
-                                <AnchorLink className="nav__link" href="#">
+                                <AnchorLink
+                                    className="nav__link"
+                                    href="#videos"
+                                >
                                     VIDEO
                                 </AnchorLink>
                             </li>
