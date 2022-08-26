@@ -51,7 +51,10 @@ const Rules = () => {
                         <ul className="rules__list">
                             {rulesList.map((rule) => {
                                 return (
-                                    <li className="rules__item">
+                                    <li
+                                        className="rules__item"
+                                        key={rule.number}
+                                    >
                                         <div className="rules__number">
                                             {rule.number}
                                         </div>

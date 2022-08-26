@@ -26,7 +26,7 @@ const Gallery = () => {
                     <Slider {...sliderSetting}>
                         {photos.map((photo) => {
                             return (
-                                <div className="gallery__photo-box">
+                                <div className="gallery__photo-box" key={photo}>
                                     <img
                                         src={photo}
                                         alt="photo"

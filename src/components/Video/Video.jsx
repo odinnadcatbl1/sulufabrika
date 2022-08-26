@@ -8,25 +8,19 @@ const Video = () => {
                         <div className="video__item">
                             <iframe
                                 src="https://www.youtube.com/embed/PePK7P28RNc"
-                                frameborder="0"
-                                allow="autoplay; encrypted-media"
-                                allowfullscreen
+                                frameBorder="0"
                             ></iframe>
                         </div>
                         <div className="video__item">
                             <iframe
                                 src="https://www.youtube.com/embed/kXTTOUl9-bQ"
-                                frameborder="0"
-                                allow="autoplay; encrypted-media"
-                                allowfullscreen
+                                frameBorder="0"
                             ></iframe>
                         </div>
                         <div className="video__item">
                             <iframe
                                 src="https://www.youtube.com/embed/i8H958lqDHI"
-                                frameborder="0"
-                                allow="autoplay; encrypted-media"
-                                allowfullscreen
+                                frameBorder="0"
                             ></iframe>
                         </div>
                     </div>
