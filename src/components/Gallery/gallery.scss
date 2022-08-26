@@ -1,6 +1,10 @@
 .gallery {
     padding: 5rem;
     background-color: $accentColor;
+
+    @media screen and (max-width: 992px) {
+        padding: 3rem 0;
+    }
 }
 
 .gallery__inner {
@@ -8,6 +12,10 @@
     flex-direction: column;
     justify-content: center;
     padding: 2rem;
+
+    @media screen and (max-width: 992px) {
+        padding: 2rem 0;
+    }
 }
 
 .gallery__photo-box {
