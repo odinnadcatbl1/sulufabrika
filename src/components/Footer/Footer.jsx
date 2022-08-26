@@ -4,32 +4,6 @@ const Footer = () => {
             <div className="container">
                 <div className="footer__inner">
                     <div className="footer__item">
-                        <div className="footer__title">Get in touch</div>
-                        <div className="footer__info">
-                            <a
-                                className="footer__link"
-                                href="https://www.facebook.com/sulufabrika/"
-                            >
-                                Facebook<i className="fa fa-facebook"></i>
-                            </a>
-
-                            <a
-                                className="footer__link"
-                                href="https://www.instagram.com/sulu.fabrika/"
-                            >
-                                Instagram<i className="fa fa-instagram"></i>
-                            </a>
-
-                            <a
-                                className="footer__link"
-                                href="https://www.youtube.com/channel/UC0VzXFl3vWEay-7Uvt9bRog"
-                            >
-                                YouTube<i className="fa fa-youtube"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div className="footer__item">
                         <div className="footer__title">Jelgava</div>
                         <div className="footer__info">
                             <a
@@ -74,6 +48,40 @@ const Footer = () => {
                             </a>
                         </div>
                     </div>
+
+                    <div className="footer__item">
+                        <div className="footer__title">Get in touch</div>
+                        <div className="footer__info">
+                            <a
+                                className="footer__link"
+                                href="https://www.facebook.com/sulufabrika/"
+                            >
+                                Facebook<i className="fa fa-facebook"></i>
+                            </a>
+
+                            <a
+                                className="footer__link"
+                                href="https://www.instagram.com/sulu.fabrika/"
+                            >
+                                Instagram<i className="fa fa-instagram"></i>
+                            </a>
+
+                            <a
+                                className="footer__link"
+                                href="https://www.youtube.com/channel/UC0VzXFl3vWEay-7Uvt9bRog"
+                            >
+                                YouTube<i className="fa fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="footer__copyright">
+                    © Copyright Sulu Fabrika.
+                </div>
+
+                <div className="footer__madeby">
+                    made by <span>odinnadcatbl1</span>
                 </div>
             </div>
         </footer>
