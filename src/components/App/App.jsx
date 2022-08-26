@@ -14,6 +14,7 @@ const App = () => {
             <Intro />
             <Contacts />
             <InfoBlock />
+            <Rules />
             {/* <Contacts />
             <InfoBlock />
             <Rules />
