@@ -9,7 +9,7 @@ import Video from "../Video/Video";
 
 const App = () => {
     return (
-        <div className="app">
+        <>
             <Header />
             <Intro />
             <Contacts />
@@ -18,7 +18,7 @@ const App = () => {
             <Gallery />
             <Video />
             <Footer />
-        </div>
+        </>
     );
 };
 

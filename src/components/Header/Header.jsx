@@ -1,8 +1,11 @@
+import { useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 import logo from "../../assets/logo.png";
 
 const Header = () => {
+    const [isOpened, setIsOpened] = useState(false);
+
     return (
         <header className="header">
             <div className="container">
@@ -20,8 +23,20 @@ const Header = () => {
                         </div>
                     </a>
 
-                    <nav className="header__nav">
-                        <ul className="nav__list">
+                    <nav
+                        className={
+                            isOpened
+                                ? "header__nav header__nav--active"
+                                : "header__nav"
+                        }
+                    >
+                        <ul
+                            className={
+                                isOpened
+                                    ? "nav__list nav__list--active"
+                                    : "nav__list"
+                            }
+                        >
                             <li className="nav__list-item">
                                 <AnchorLink
                                     className="nav__link"
@@ -62,6 +77,18 @@ const Header = () => {
                             </li>
                         </ul>
                     </nav>
+
+                    <button
+                        className={
+                            isOpened ? "burger burger--active" : "burger"
+                        }
+                        type="button"
+                        onClick={() => {
+                            setIsOpened(!isOpened);
+                        }}
+                    >
+                        <span>Открыть навигацию</span>
+                    </button>
                 </div>
             </div>
         </header>

@@ -61,7 +61,8 @@ const InfoBlock = () => {
                                 >
                                     <div className="bags__submenu-item">
                                         <div className="submenu__item-text">
-                                            3 litri - €2
+                                            3 litri <br />
+                                            <br /> €2
                                         </div>
                                         <div className="submenu__item-img">
                                             <img src={bag1} alt="bag1" />
@@ -70,7 +71,8 @@ const InfoBlock = () => {
 
                                     <div className="bags__submenu-item">
                                         <div className="submenu__item-text">
-                                            5 litri - €2.50
+                                            5 litri <br />
+                                            <br /> €2.50
                                         </div>
                                         <div className="submenu__item-img">
                                             <img src={bag1} alt="bag1" />
@@ -107,7 +109,8 @@ const InfoBlock = () => {
                                 >
                                     <div className="bags__submenu-item">
                                         <div className="submenu__item-text">
-                                            3 litri - €2.70
+                                            3 litri <br />
+                                            <br /> €2.70
                                         </div>
                                         <div className="submenu__item-img">
                                             <img src={bag2} alt="bag1" />
@@ -116,7 +119,8 @@ const InfoBlock = () => {
 
                                     <div className="bags__submenu-item">
                                         <div className="submenu__item-text">
-                                            5 litri - €3.50
+                                            5 litri <br />
+                                            <br /> €3.50
                                         </div>
                                         <div className="submenu__item-img">
                                             <img src={bag3} alt="bag1" />
