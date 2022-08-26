@@ -3,6 +3,29 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 
 import logo from "../../assets/logo.png";
 
+const navLinks = [
+    {
+        name: "KONTAKTI",
+        link: "contacts",
+    },
+    {
+        name: "PAKALPOJUMI",
+        link: "info__block",
+    },
+    {
+        name: "NOTEIKUMI",
+        link: "rules",
+    },
+    {
+        name: "GALERIJA",
+        link: "gallery",
+    },
+    {
+        name: "VIDEO",
+        link: "video",
+    },
+];
+
 const Header = () => {
     const [isOpened, setIsOpened] = useState(false);
 
@@ -37,44 +60,27 @@ const Header = () => {
                                     : "nav__list"
                             }
                         >
-                            <li className="nav__list-item">
-                                <AnchorLink
-                                    className="nav__link"
-                                    href="#contacts"
-                                >
-                                    KONTAKTI
-                                </AnchorLink>
-                            </li>
-
-                            <li className="nav__list-item">
-                                <AnchorLink
-                                    className="nav__link"
-                                    href="#info__block"
-                                >
-                                    PAKALPOJUMI
-                                </AnchorLink>
-                            </li>
-
-                            <li className="nav__list-item">
-                                <AnchorLink className="nav__link" href="#rules">
-                                    NOTEIKUMI
-                                </AnchorLink>
-                            </li>
-
-                            <li className="nav__list-item">
-                                <AnchorLink
-                                    className="nav__link"
-                                    href="#gallery"
-                                >
-                                    GALERIJA
-                                </AnchorLink>
-                            </li>
-
-                            <li className="nav__list-item">
-                                <AnchorLink className="nav__link" href="#video">
-                                    VIDEO
-                                </AnchorLink>
-                            </li>
+                            {navLinks.map((nav) => {
+                                return (
+                                    <li
+                                        className="nav__list-item"
+                                        key={nav.link}
+                                    >
+                                        <AnchorLink
+                                            className="nav__link"
+                                            href={`#${nav.link}`}
+                                        >
+                                            <span
+                                                onClick={() =>
+                                                    setIsOpened(false)
+                                                }
+                                            >
+                                                {nav.name}
+                                            </span>
+                                        </AnchorLink>
+                                    </li>
+                                );
+                            })}
                         </ul>
                     </nav>
 
