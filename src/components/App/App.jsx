@@ -4,6 +4,7 @@ import Header from "../Header/Header";
 import InfoBlock from "../InfoBlock/InfoBlock";
 import Intro from "../Intro/Intro";
 import Rules from "../Rules/Rules";
+import Video from "../Video/Video";
 
 const App = () => {
     return (
@@ -14,6 +15,7 @@ const App = () => {
             <InfoBlock />
             <Rules />
             <Gallery />
+            <Video />
         </div>
     );
 };

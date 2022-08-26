@@ -1,0 +1,35 @@
+.video {
+    padding: 5rem 0;
+}
+
+.video__inner {
+    padding: 3rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.video__item {
+    width: 40%;
+    height: 22rem;
+
+    iframe {
+        width: 100%;
+        height: 100%;
+        transition: all 0.2s ease-in-out;
+        border-radius: 2rem;
+        box-shadow: 2px 2px 5px $fontColor;
+
+        &:hover {
+            opacity: 0.9;
+            transform: scale(1.1);
+        }
+    }
+}

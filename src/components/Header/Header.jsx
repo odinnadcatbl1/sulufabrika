@@ -56,10 +56,7 @@ const Header = () => {
                             </li>
 
                             <li className="nav__list-item">
-                                <AnchorLink
-                                    className="nav__link"
-                                    href="#videos"
-                                >
+                                <AnchorLink className="nav__link" href="#video">
                                     VIDEO
                                 </AnchorLink>
                             </li>
