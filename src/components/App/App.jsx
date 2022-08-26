@@ -12,6 +12,7 @@ const App = () => {
         <>
             <Header />
             <Intro />
+            <Contacts />
             {/* <Contacts />
             <InfoBlock />
             <Rules />
