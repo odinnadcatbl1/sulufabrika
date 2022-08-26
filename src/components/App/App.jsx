@@ -16,12 +16,8 @@ const App = () => {
             <InfoBlock />
             <Rules />
             <Gallery />
-            {/* <Contacts />
-            <InfoBlock />
-            <Rules />
-            <Gallery />
             <Video />
-            <Footer /> */}
+            <Footer />
         </>
     );
 };
