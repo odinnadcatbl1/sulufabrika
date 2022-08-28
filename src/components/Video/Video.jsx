@@ -7,18 +7,21 @@ const Video = () => {
                     <div className="video__list">
                         <div className="video__item">
                             <iframe
+                                title="first video"
                                 src="https://www.youtube.com/embed/PePK7P28RNc"
                                 frameBorder="0"
                             ></iframe>
                         </div>
                         <div className="video__item">
                             <iframe
+                                title="second video"
                                 src="https://www.youtube.com/embed/kXTTOUl9-bQ"
                                 frameBorder="0"
                             ></iframe>
                         </div>
                         <div className="video__item">
                             <iframe
+                                title="third video"
                                 src="https://www.youtube.com/embed/i8H958lqDHI"
                                 frameBorder="0"
                             ></iframe>
