@@ -1,25 +1,28 @@
 import phoneSvg from "../../assets/phone.svg";
+import firstImg from "../../assets/contacts/1.jpg";
+import secondImg from "../../assets/contacts/3.jpg";
+import thirdImg from "../../assets/contacts/2.jpg";
 
 const locations = [
     {
         city: "Jelgava",
         address: "Smilšu iela 4",
         phone: "+371 29774876",
-        img: "https://via.placeholder.com/400",
+        img: firstImg,
         link: "https://www.google.com/maps/place/Sulu+Fabrika/@56.643351,23.7058716,17z/data=!4m5!3m4!1s0x46ef254b2950e20f:0xb67c05f445845037!8m2!3d56.6433148!4d23.7080795?hl=lv",
     },
     {
         city: "Valmiera",
         address: "Ķeizari (BN Kurši stāvlaukumā)",
         phone: "+371 26690696",
-        img: "https://via.placeholder.com/400",
+        img: secondImg,
         link: "https://www.google.ru/maps/search/Valmiera,+%C4%B6eizari/@57.5258045,25.3549736,13z/data=!3m1!4b1",
     },
     {
         city: "Jelgava",
         address: "Lietuvas šoseja 2b",
         phone: "+371 29774876",
-        img: "https://via.placeholder.com/400",
+        img: thirdImg,
         link: "https://goo.gl/maps/ddXCQYWS2aT74yrp6",
     },
 ];

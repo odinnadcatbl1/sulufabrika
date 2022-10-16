@@ -8,18 +8,18 @@ import img3 from "../../assets/slides/3.jpg";
 const slides = [
     {
         img: img1,
-        title: "быстро",
-        text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, eius.",
+        title: "Ātri",
+        text: "Lai nodrošinātu maksimāli ātru un kvalitatīvu servisu, mēs strādājam ar modernākajām, rūpnieciska līmeņa iekārtām, kuras spēj apstrādāt līdz pat 1 tonnu ābolu/stundā.",
     },
     {
         img: img2,
-        title: "качественно",
-        text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, eius.",
+        title: "Kvalitatīvi",
+        text: "Pasterizācija +80°C, lai sula nebojātos, vienlaikus saglabājot savas labās īpašības un minerālvielas.",
     },
     {
         img: img3,
-        title: "вкусно",
-        text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, eius.",
+        title: "Veselīgi un garšīgi",
+        text: "Izveido savu vitamīnu kokteili! Pievieno ingveru imunitātei, burkānu ādas veselībai, aroniju asinsrites uzlabošanai!",
     },
 ];
 
