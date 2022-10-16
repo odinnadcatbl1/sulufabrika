@@ -5,8 +5,8 @@ import bag2 from "../../assets/info-block/2.png";
 import bag3 from "../../assets/info-block/3.png";
 
 const InfoBlock = () => {
-    const [firstIsVisible, setFirstVisible] = useState(false);
-    const [secondIsVisible, setSecondVisible] = useState(false);
+    const [firstIsVisible, setFirstVisible] = useState(true);
+    const [secondIsVisible, setSecondVisible] = useState(true);
 
     return (
         <section className="info__block" id="info__block">

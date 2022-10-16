@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sulufabrika/build/static/css/main.b7ba3441.css",
-    "main.js": "/sulufabrika/build/static/js/main.f4cf5daa.js",
+    "main.js": "/sulufabrika/build/static/js/main.77afb80b.js",
     "static/media/3.png": "/sulufabrika/build/static/media/3.58c09c018e79c795f6df.png",
     "static/media/2.png": "/sulufabrika/build/static/media/2.3293ba14dd8af8d50e1c.png",
     "static/media/1.png": "/sulufabrika/build/static/media/1.099b17a2d369eb33e8d1.png",
@@ -17,10 +17,10 @@
     "static/media/phone.svg": "/sulufabrika/build/static/media/phone.c2ab0a4bca4049c45e518d35ef1ae3a5.svg",
     "index.html": "/sulufabrika/build/index.html",
     "main.b7ba3441.css.map": "/sulufabrika/build/static/css/main.b7ba3441.css.map",
-    "main.f4cf5daa.js.map": "/sulufabrika/build/static/js/main.f4cf5daa.js.map"
+    "main.77afb80b.js.map": "/sulufabrika/build/static/js/main.77afb80b.js.map"
   },
   "entrypoints": [
     "static/css/main.b7ba3441.css",
-    "static/js/main.f4cf5daa.js"
+    "static/js/main.77afb80b.js"
   ]
 }
